@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <script src="https://js.puter.com/v2/"></script>
+    <title> Gasto na foto </title>
+</head>
+
+
+<body>
+    <div>
+        <h1>📷✨ GASTOS COM FOTO </h1>
+        <p class=" topo">Fotografe o comprovante e a IA anota para você </p>
+    </div>
+
+
+    <div class=" caixa-total">
+        <p class=" total"> Total de gasto: </p>
+        <h2 class="Valor"> R$ 0,00 <h2>
+    </div>
+
+    <label>
+        <p class=" rotulo"> Toque para anexar </p>
+        <input class="foto" onchange="lerFoto()" type="file" accept="image/*">
+    </label>
+
+    <div class=" lista">
+
+        
+    </div>
+
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
